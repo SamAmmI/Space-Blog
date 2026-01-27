@@ -18,7 +18,7 @@ function Blogcard({ title, imageUrl, summary, url }: BlogcardProps) {
             {summary ? <p className="card-text">{summary.length > 150 ? summary.slice(0, 150) + '...' : summary}</p> : null}
             {url ? (
                 <p className="card-link">
-                    <a href={url} target="_blank" rel="noreferrer">Read more</a>
+                    <a href={url} className="api-link" target="_blank" rel="noreferrer">Read more</a>
                 </p>
             ) : null}
         </div>
