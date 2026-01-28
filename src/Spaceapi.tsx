@@ -1,5 +1,3 @@
-
-
 import { useEffect, useState } from 'react';
 import Blogcard from './Blogcard';
 
@@ -24,7 +22,7 @@ function Spaceapi() {
 
         async function fetchBlogs() {
             try {
-                const check = await fetch('https://api.spaceflightnewsapi.net/v4/blogs/?format=json&limit=10');
+                const check = await fetch('https://api.spaceflightnewsapi.net/v4/blogs/?format=json&limit=12');
                 if (!check.ok) throw new Error(`${check.status} ${check.statusText}`);
                 const data = await check.json();
 
