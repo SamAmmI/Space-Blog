@@ -153,6 +153,58 @@ main {
   height: 1px;
 }
 
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar-btn{
+  display: block;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, rgba(5, 38, 110, 0.74), rgba(0, 44, 138, 0.74));
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.sidebar-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 132, 255, 0.4);
+  background: linear-gradient(135deg, rgba(0, 31, 97, 0.74), rgba(0, 31, 97, 0.74));
+}
+
+.sidebar-btn:active {
+  transform: translateY(0);
+}
+
+#load {
+  display: block;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, rgba(5, 38, 110, 0.74), rgba(0, 44, 138, 0.74));
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#load:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 132, 255, 0.4);
+  background: linear-gradient(135deg, rgba(0, 31, 97, 0.74), rgba(0, 31, 97, 0.74));
+}
+
 /*#logo {
   
   backdrop-filter: blur(15px) saturate(3);
