@@ -13,8 +13,6 @@ function AppContent() {
       <div className="stars" aria-hidden="true"></div>
       <div className="twinkling" aria-hidden="true"></div>
 
-      
-      
       <div className="app-container">
         <aside className="sidebar sidebar-left" aria-label="Left sidebar"></aside>
         <main>

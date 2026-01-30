@@ -176,7 +176,7 @@ main {
 
 .sidebar-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 132, 255, 0.4);
+  box-shadow: 0 0px 12px rgba(0, 132, 255, 0.4);
   background: linear-gradient(135deg, rgba(0, 31, 97, 0.74), rgba(0, 31, 97, 0.74));
 }
 
@@ -201,7 +201,7 @@ main {
 
 #load:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 132, 255, 0.4);
+  box-shadow: 0 0px 12px rgba(0, 132, 255, 0.4);
   background: linear-gradient(135deg, rgba(0, 31, 97, 0.74), rgba(0, 31, 97, 0.74));
 }
 
